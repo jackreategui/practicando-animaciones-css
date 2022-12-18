@@ -24,59 +24,109 @@ body{
     height: 600px;
     background-color: var(--sky);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
 }
 
 .layer-1{
     position: absolute;
     z-index: 1;
     width: 80px;
-    height: 450px;
-    background-color: green;
+    height: 480px;
     bottom: 0;
     right: 60px;
+    background-image: url("./assets/minions-Vector/SVG/miniun-1.svg");
 }
 
 .layer-2{
     position: absolute;
     z-index: 2;
+    width: 80px;
+    height: 480px;
+    bottom: 0;
+    left: 60px;
+    background-image: url("./assets/minions-Vector/SVG/miniun-2.svg");
 }
 
 .layer-3{
     position: absolute;
     z-index: 3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 220px;
+    height: 400px;
+    background-color: aqua;
 }
 
 .layer-4{
     position: absolute;
     z-index: 4;
+    width: 80px;
+    height: 380px;
+    bottom: 0;
+    right: 200px;
+    background-image: url("./assets/minions-Vector/SVG/miniun-1.svg");
 }
 
 .layer-5{
     position: absolute;
     z-index: 5;
+    left: 0;
+    bottom: 0;
+    width: 220px;
+    height: 300px;
+    background-color: aquamarine;
 }
 
 .layer-6{
     position: absolute;
     z-index: 6;
+    width: 80px;
+    height: 280px;
+    bottom: 0;
+    right: 30px;
+    background-image: url("./assets/minions-Vector/SVG/miniun-2.svg");
 }
 
 .layer-7{
     position: absolute;
     z-index: 7;
+    width: 180px;
+    height: 200px;
+    right: 0;
+    bottom: 0;
+    background-color: goldenrod;
 }
 
 .layer-8{
     position: absolute;
     z-index: 8;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 150px;
+    height: 130px;
+    background-color: aliceblue;
 }
 
 .layer-9{
     position: absolute;
     z-index: 9;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 100px;
+    background-color: wheat;
 }
 
 .layer-10{
     position: absolute;
     z-index: 10;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 100px;
+    background-color: wheat;
 }
